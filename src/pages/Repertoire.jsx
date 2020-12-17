@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../components/Header/Header";
 
 export default function Repertoire() {
   return (
-    <div>
-      <h1>Repertoire des entreprises</h1>
-    </div>
+    <main>
+      <Header>Repertoire des entreprises</Header>
+    </main>
   );
 }

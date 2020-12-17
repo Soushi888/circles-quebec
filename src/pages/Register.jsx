@@ -1,10 +1,11 @@
 import React from "react";
+import Header from "../components/Header/Header";
 import RegisterForm from "../components/RegisterForm/RegisterForm";
 
 export default function Register() {
   return (
     <div>
-      <h1>Formulaire d'enregistrement</h1>
+      <Header>Formulaire d'enregistrement</Header>
       <RegisterForm />
     </div>
   );
