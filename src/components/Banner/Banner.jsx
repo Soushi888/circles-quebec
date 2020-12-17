@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className={style.banner}>
       <Logo />
-      <h1>Circle Québec</h1>
+      <h1>Circles Québec</h1>
     </div>
   );
 };
