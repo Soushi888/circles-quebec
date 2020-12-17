@@ -6,7 +6,9 @@ import style from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <nav className={style.navbar}>
-      <Logo className={style.navbar__logo} />
+      <Link to="/">
+        <Logo className={style.navbar__logo} />
+      </Link>
 
       <ul>
         <li>
@@ -19,7 +21,7 @@ export default function Navbar() {
           <Link to="/repertoire">Repertoire</Link>
         </li>
       </ul>
-      
+
       <div></div>
     </nav>
   );
