@@ -1,0 +1,30 @@
+.navbar {
+  padding: 5px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.navbar a,
+.navbar a:visited {
+  color: rgb(0, 167, 167);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(0, 98, 98);
+}
+
+.navbar__logo {
+  height: 50px;
+}
