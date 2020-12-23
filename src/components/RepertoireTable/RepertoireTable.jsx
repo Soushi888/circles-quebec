@@ -24,7 +24,7 @@ const RepertoireTable = () => {
               <td>{d.entreprise}</td>
               <td>{d.service}</td>
               <td>{d.duree}</td>
-              <td>{d.cout}</td>
+              <td>{d.cout} circles</td>
             </tr>
           ))}
         </tbody>
