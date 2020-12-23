@@ -1,9 +1,9 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Accueil from "./pages/Accueil";
-import Register from "./pages/Register";
-import Repertoire from "./pages/Repertoire";
+import Navbar from "../components/Navbar/Navbar";
+import Accueil from "../pages/Accueil";
+import Register from "../pages/Register";
+import Repertoire from "../pages/Repertoire";
 
 function App() {
   return (

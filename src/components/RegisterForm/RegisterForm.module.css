@@ -1,0 +1,44 @@
+.RegisterForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RegisterForm div {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: gray 1px solid;
+  border-radius: 10px;
+}
+
+.RegisterForm input {
+  border: rgb(3, 170, 170) 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  height: 2.3em;
+}
+
+.RegisterForm input:focus {
+  border: rgb(3, 170, 170) 2px solid;
+}
+
+.RegisterForm button {
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(0, 190, 190);
+  color: rgb(3, 90, 81);
+  font-weight: bold;
+  cursor: pointer;
+  border: teal 1px solid;
+  margin-bottom: 100px;
+}
+
+.RegisterForm button:hover {
+  background-color: teal;
+  color: rgb(99, 177, 245);
+  border-color: rgb(99, 177, 245);
+}

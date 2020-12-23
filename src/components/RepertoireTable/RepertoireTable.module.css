@@ -1,0 +1,20 @@
+.RepertoireTable {
+    width: fit-content;
+    margin: 20px auto 0;
+}
+
+.RepertoireTable table {
+  border-collapse: collapse;
+  border: black 1px solid;
+}
+
+.RepertoireTable th,
+.RepertoireTable td {
+  padding: 10px;
+  border: black 1px solid;
+}
+
+.RepertoireTable p {
+  margin-top: 20px;
+  font-size: small;
+}

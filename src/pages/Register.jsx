@@ -4,9 +4,9 @@ import RegisterForm from "../components/RegisterForm/RegisterForm";
 
 export default function Register() {
   return (
-    <div>
+    <main>
       <Header>Formulaire d'enregistrement</Header>
       <RegisterForm />
-    </div>
+    </main>
   );
 }
