@@ -1,6 +1,6 @@
 .RepertoireTable {
-    width: fit-content;
-    margin: 20px auto 0;
+  width: fit-content;
+  margin: 20px auto 0;
 }
 
 .RepertoireTable table {
@@ -17,4 +17,37 @@
 .RepertoireTable p {
   margin-top: 20px;
   font-size: small;
+}
+
+.RepertoireTable__link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.RepertoireTable__link:hover {
+  font-weight: bold;
+}
+
+.Modal {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 10px;
+  outline: none;
+  padding: 20px;
+}
+
+.Modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(95, 95, 95, 0.322);
 }
