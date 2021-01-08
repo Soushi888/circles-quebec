@@ -43,9 +43,16 @@ const RepertoireTable = () => {
                 isOpen={showModal}
                 onRequestClose={closeModal}
               >
-                <h2>{d.entreprise}</h2>
-                <p>{d.service}</p>
-                <button onClick={closeModal}>Close</button>
+                <div className={style.Modal__content}>
+                  <h2>{d.entreprise}</h2>
+                  <p>Nom du contact : {d.name}</p>
+                  <p>email : {d.email}</p>
+                  <p>Téléphone : {d.phone}</p>
+                  <p>Service offert : {d.service}</p>
+                  <p>durée : {d.duree}</p>
+                  <p>coût : {d.cout} Circles</p>
+                  <button onClick={closeModal}>Close</button>
+                </div>
               </ReactModal>
             </React.Fragment>
           ))}
