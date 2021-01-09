@@ -15,10 +15,10 @@ export default function Navbar() {
           <Link to="/">Accueil</Link>
         </li>
         <li>
-          <Link to="/register">Formulaire</Link>
+          <Link to="/register">Accepter des circles</Link>
         </li>
         <li>
-          <Link to="/repertoire">Repertoire</Link>
+          <Link to="/repertoire">Utiliser des circles</Link>
         </li>
       </ul>
 

@@ -1,6 +1,6 @@
 .RepertoireTable {
-    width: fit-content;
-    margin: 20px auto 0;
+  width: fit-content;
+  margin: 20px auto 0;
 }
 
 .RepertoireTable table {
@@ -10,11 +10,83 @@
 
 .RepertoireTable th,
 .RepertoireTable td {
-  padding: 10px;
+  padding: 15px;
   border: black 1px solid;
 }
 
 .RepertoireTable p {
   margin-top: 20px;
   font-size: small;
+}
+
+.RepertoireTable__link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.RepertoireTable__link:hover {
+  color: rgb(0, 167, 167);
+}
+
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  right: 35%;
+  bottom: 35%;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 10px;
+  outline: none;
+  padding: 20px;
+  opacity: 1;
+  transition: 0.4s all ease-in;
+}
+
+.Modal--after-open {
+  opacity: 1;
+}
+
+.Modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(95, 95, 95, 0.322);
+}
+
+.Modal__content  {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.Modal__content h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border: black 1px solid;
+  border-radius: 50%;
+  width: max-content;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  font-weight: bold;
+  color: darkred;
+  border: darkred 2px solid;
 }
