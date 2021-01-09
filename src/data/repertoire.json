@@ -2,7 +2,7 @@
   "1": {
     "name": "John Doe",
     "email": "info@entreprise1.com",
-    "phone": "4383905128",
+    "phone": "438-390-5128",
     "entreprise": "Entreprise 1",
     "service": "Consultation marketing web",
     "duree": "2h",
@@ -11,7 +11,7 @@
   "2": {
     "name": "John Doe",
     "email": "info@entreprise2.com",
-    "phone": "4383905228",
+    "phone": "438-390-5228",
     "entreprise": "Entreprise 2",
     "service": "Consultation développement web",
     "duree": "2h",
@@ -20,7 +20,7 @@
   "3": {
     "name": "John Doe",
     "email": "info@entreprise3.com",
-    "phone": "4383905328",
+    "phone": "438-390-5328",
     "entreprise": "Entreprise 3",
     "service": "Développement web",
     "duree": "1h",
@@ -29,7 +29,7 @@
   "4": {
     "name": "John Doe",
     "email": "info@entreprise4.com",
-    "phone": "4383905428",
+    "phone": "438-390-5428",
     "entreprise": "Entreprise 4",
     "service": "Consultation Blockchain",
     "duree": "2h",
