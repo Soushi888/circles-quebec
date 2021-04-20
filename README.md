@@ -1,6 +1,6 @@
 # Circles Québec
 
-Site web de Circles Québec créé avec react JS.
+Prototype du site web de Circles Québec créé avec react JS.
 
 ## Pages
 
